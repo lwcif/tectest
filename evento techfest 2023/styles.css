@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.speaker1,
+.speaker2,
+.speaker3 {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.speaker1 img,
+.speaker2 img,
+.speaker3 img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.speaker1 h3,
+.speaker2 h3,
+.speaker3 h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.schedule {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.agenda {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.schedule-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.schedule-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.schedule-item .time {
+    color: #777;
+}
+
+.schedule-item .speaker {
+    font-weight: bold;
+}
